@@ -1,22 +1,86 @@
-<html>
-    <head>
-        <title>Pestaña Django Wally</title>
-    </head>
-    <body>
-        <header>
-            <h1><a href="/">Django Blog</a></h1>
-        </header>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .product-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Catálogo de Productos</h1>
+        
+        <h2 class="my-4">Tipos de Carne</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="C:\Users\wecoy\OneDrive\Desktop" class="card-img-top" alt="Carne 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Carne de Res</h5>
+                        <p class="card-text">Descripción breve de la carne de res.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="ruta/a/imagen2.jpg" class="card-img-top" alt="Carne 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Carne de Cerdo</h5>
+                        <p class="card-text">Descripción breve de la carne de cerdo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="ruta/a/imagen3.jpg" class="card-img-top" alt="Carne 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Carne de Pollo</h5>
+                        <p class="card-text">Descripción breve de la carne de pollo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <article>
-            <time>published: 14.06.2014, 12:14</time>
-            <h2><a href="">My first post</a></h2>
-            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        </article>
+        <h2 class="my-4">Tipos de Bebidas</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="ruta/a/imagen4.jpg" class="card-img-top" alt="Bebida 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Refresco</h5>
+                        <p class="card-text">Descripción breve del refresco.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="ruta/a/imagen5.jpg" class="card-img-top" alt="Bebida 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Cerveza</h5>
+                        <p class="card-text">Descripción breve de la cerveza.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="ruta/a/imagen6.jpg" class="card-img-top" alt="Bebida 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Vino</h5>
+                        <p class="card-text">Descripción breve del vino.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <article>
-            <time>published: 14.06.2014, 12:14</time>
-            <h2><a href="">My second post</a></h2>
-            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
-        </article>
-    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
